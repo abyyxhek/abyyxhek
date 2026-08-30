@@ -1,356 +1,193 @@
-# ⚡ ABISHEK VS
+# Abishek VS
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=ABISHEK%20VS&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
-</p>
+**Computer Science & Engineering | Artificial Intelligence & Machine Learning | Software Engineering**
 
-<p align="center">
-  <a href="https://github.com/abyyxhek">
-    <img src="https://komarev.com/ghpvc/?username=abyyxhek&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/abyyxhek?tab=followers">
-    <img src="https://img.shields.io/github/followers/abyyxhek?label=FOLLOWERS&style=for-the-badge&color=181717&logo=github"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&duration=2500&pause=700&color=00D9FF&center=true&vCenter=true&width=800&height=60&lines=AI+%2F+ML+Engineer+in+Progress+%F0%9F%A4%96;Python+Developer+%F0%9F%90%8D;Open+Source+Contributor+%F0%9F%94%A5;Building+AI-powered+Systems+%E2%9A%99%EF%B8%8F;Turning+Ideas+into+Working+Software+%F0%9F%9A%80"/>
-</p>
-
-<p align="center">
-  <b>AI • Machine Learning • Software Engineering • Open Source</b>
-</p>
-
-<br>
+[GitHub](https://github.com/abyyxhek) · [LinkedIn](https://www.linkedin.com/) · [Email](mailto:reachme.abishekvs@gmail.com)
 
 ---
 
-## 🧠 WHO AM I?
+## About
 
-```python
-class AbishekVS:
+I am a B.Tech Computer Science and Engineering student focused on Artificial Intelligence, Machine Learning, and software engineering.
 
-    role = "B.Tech CSE Student"
-    focus = ["AI", "Machine Learning", "Software Engineering"]
-    languages = ["Python", "JavaScript", "SQL", "C"]
+I build practical systems across machine learning, computer vision, backend development, and AI infrastructure. I am particularly interested in reliable AI systems, agent infrastructure, and production-oriented software.
 
-    currently_learning = [
-        "Deep Learning",
-        "LLMs",
-        "AI Agents",
-        "System Design"
-    ]
-
-    currently_building = [
-        "AI-powered applications",
-        "ML systems",
-        "Open-source contributions"
-    ]
-
-    philosophy = "Code → Break → Debug → Learn → Build Again 🚀"
-```
+Currently working on AI and web-based projects while deepening my knowledge of Deep Learning, Large Language Models, AI agents, and System Design.
 
 ---
 
-## ⚡ WHAT I DO
+## Technical Skills
 
-<table>
-<tr>
-<td width="50%">
+**Languages**
 
-### 🤖 AI / ML
+Python · JavaScript · SQL · C · HTML · CSS
 
-* Machine Learning
-* Computer Vision
-* Deep Learning
-* LLM Applications
-* AI Agents
-* Model Evaluation
-* Data Processing
+**Artificial Intelligence & Machine Learning**
 
-</td>
+Scikit-learn · NumPy · Pandas · Matplotlib · OpenCV · MediaPipe
 
-<td width="50%">
+Machine Learning · Computer Vision · Regression · Classification · Feature Engineering · Model Evaluation · Cross-Validation
 
-### ⚙️ SOFTWARE
+**Backend & Web**
 
-* Python Development
-* REST APIs
-* Full Stack Development
-* Databases
-* Testing
-* CI/CD
-* Debugging
-* Open Source
+Django · Node.js · Express.js · React · REST APIs · JWT Authentication
 
-</td>
-</tr>
-</table>
+**Databases**
+
+MongoDB · MySQL · SQLite
+
+**Engineering & Tools**
+
+Git · GitHub · GitHub Actions · Jupyter · VS Code · Postman · Vercel · Render
+
+Unit Testing · Regression Testing · CI/CD · Debugging · Code Review · API Integration · Concurrency · Static Analysis · Cross-Platform Debugging
 
 ---
 
-# 🛠️ TECH ARSENAL
+## Open Source
 
-### 🐍 Languages
+### SNAGLINE
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,c,js,sql" />
-</p>
+AI/ML monitoring and failure-detection infrastructure.
 
-### 🤖 AI / Machine Learning
+Contributed **5 merged bug-fix pull requests (#63, #71–#74)** addressing reliability across CrewAI, Claude Code, configuration, asynchronous batching, and state-management components.
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,opencv" />
-</p>
+Key contributions include:
 
-<p>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white"/>
-</p>
+* Corrected CrewAI action signatures to use stable `tool_input`, restoring reliable loop detection.
+* Fixed Claude Code tool-latency tracking and improved tracker ordering and age-based eviction.
+* Fixed asynchronous batch threshold flushing and shutdown queue draining.
+* Corrected environment-variable precedence behavior.
+* Fixed an unbounded per-episode `RLock` leak in `MemoryStateBackend`.
+* Added regression and end-to-end tests covering anomaly detection, integrations, concurrency, configuration, fail-open behavior, asynchronous delivery, and memory cleanup.
 
-### 🌐 Full Stack
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,mysql" />
-</p>
-
-### 🧰 Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,postman,vercel" />
-</p>
-
----
-
-# 🚀 OPEN SOURCE JOURNEY
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abyyxhek&theme=react-dark&hide_border=true&area=true" width="100%"/>
-</p>
-
-### 🔥 SNAGLINE
-
-> AI/ML monitoring and failure-detection infrastructure.
-
-**Contributions include:**
-
-```text
-CrewAI Integration
-Claude Code Integration
-Anomaly Detection
-Async Batching
-Configuration Reliability
-State Management
-Concurrency
-Memory Management
-Regression Testing
-```
-
-🔗 **Repository:**
+**Repository:**
 https://github.com/abyyxhek/SNAGLINE
 
 ---
 
-### ♾️ CONTINUUM
+### CONTINUUM
 
-> AI/agent infrastructure focused on task continuity and recovery.
+AI/agent infrastructure focused on task continuity and recovery.
 
-**Contributions include:**
+Contributed **4 merged pull requests** covering process execution, session recovery, cross-platform reliability, SQLite resource management, and documentation.
 
-```text
-Process Execution
-Session Recovery
-Sidecar Resume
-SQLite Resource Management
-Windows Compatibility
-Documentation
-```
+Key contributions include:
 
-🔗 **Repository:**
+* Fixed child-process environment inheritance.
+* Fixed sidecar session recovery without a memorized ID or task file.
+* Fixed SQLite storage handle cleanup for Windows benchmark execution.
+* Corrected serve-resume test documentation.
+
+**Repository:**
 https://github.com/Cyrax321/CONTINUUM
 
 ---
 
-# 🧩 FEATURED PROJECTS
+## Projects
 
-<table>
-<tr>
-<td width="50%">
+### AI Attendance System
 
-### 🤖 AI Attendance System
+Face-recognition based attendance system using computer vision.
 
-Computer-vision based attendance system using face recognition.
+**Technologies:** Python, OpenCV, Face Recognition
 
-`Python` `OpenCV` `Computer Vision`
+### Excel Analytics Platform
 
-</td>
+Full-stack analytics platform supporting spreadsheet and CSV ingestion, automated processing, persistent storage, and interactive analytics.
 
-<td width="50%">
+**Technologies:** Node.js, Express.js, React, MongoDB
 
-### 📊 Excel Analytics Platform
+### MERN Applications
 
-Full-stack analytics platform for spreadsheet ingestion, processing and visualization.
+Full-stack web applications featuring authentication, REST APIs, database integration, and responsive interfaces.
 
-`Node.js` `React` `MongoDB`
+**Technologies:** MongoDB, Express.js, React, Node.js
 
-</td>
-</tr>
+### Social Media Platform
 
-<tr>
-<td width="50%">
+A full-stack social platform supporting posts, likes, comments, and user interactions.
 
-### 🌐 MERN Applications
-
-Full-stack applications with authentication, APIs and database integration.
-
-`MongoDB` `Express` `React` `Node.js`
-
-</td>
-
-<td width="50%">
-
-### 📱 Social Platform
-
-Mini social-media platform with posts, likes and comments.
-
-`React` `Node.js` `MongoDB`
-
-</td>
-</tr>
-</table>
+**Technologies:** React, Node.js, Express.js, MongoDB
 
 ---
 
-# 📊 GITHUB POWER
+## Experience
+
+### Zidio Development
+
+**Web Developer Intern | Jun 2025 – Jul 2025**
+
+* Built a production-oriented data analytics platform using Node.js, Express.js, React.js, and MongoDB.
+* Implemented Excel/CSV ingestion, automated parsing, persistent storage, and interactive analytics.
+* Developed JWT authentication and role-based access control through REST APIs.
+* Built responsive analytics dashboards using React and Tailwind CSS.
+* Configured GitHub-based CI/CD deployment using Render and Vercel.
+
+---
+
+## Education
+
+**APJ Abdul Kalam Technological University**
+
+**B.Tech in Computer Science and Engineering**
+Sep 2023 – Jul 2027 · Kerala
+
+Relevant coursework:
+
+Data Structures and Algorithms · Machine Learning · Database Management Systems · Operating Systems · Computer Networks · Object-Oriented Programming
+
+---
+
+## Currently Learning
+
+Deep Learning
+Large Language Models
+AI Agents
+Retrieval-Augmented Generation
+System Design
+Production Machine Learning
+
+---
+
+## Open Source Contributions
+
+**9 merged pull requests across SNAGLINE and CONTINUUM**
+
+* 8 bug-fix and reliability contributions
+* 1 documentation contribution
+* Regression testing
+* End-to-end validation
+* Static analysis
+* CI workflows
+* Code review
+* Concurrency debugging
+* Cross-platform debugging
+* Production-oriented software maintenance
+
+---
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abyyxhek&show_icons=true&count_private=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=tokyonight" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abyyxhek&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=abyyxhek&show_icons=true&hide_border=true&theme=default" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abyyxhek&hide_border=true&theme=default" height="160"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abyyxhek&layout=donut-vertical&hide_border=true&theme=tokyonight" height="220"/>
-</p>
-
----
-
-# 🏆 GITHUB TROPHIES
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abyyxhek&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1" width="100%"/>
-</p>
-
----
-
-# 🐍 CONTRIBUTION SNAKE
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/abyyxhek/abyyxhek/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
-</p>
-
----
-
-# 🧠 CURRENTLY LEARNING
-
-<p align="center">
-
-`Deep Learning` • `Neural Networks` • `LLMs` • `RAG` • `AI Agents` • `System Design`
-
-</p>
-
-```text
-                    ┌────────────────────┐
-                    │     AI / ML        │
-                    └─────────┬──────────┘
-                              │
-                 ┌────────────┴────────────┐
-                 │                         │
-          Machine Learning            Deep Learning
-                 │                         │
-                 └────────────┬────────────┘
-                              │
-                         LLM / Agents
-                              │
-                              ▼
-                    Production AI Systems
-```
-
----
-
-# 🎯 2026 MISSION
-
-```text
-[████████████████░░░░] 80%
-
-✓ Build real-world AI applications
-✓ Contribute to open source
-✓ Improve Python & ML engineering
-✓ Work with production systems
-
-→ Master Deep Learning
-→ Build AI agents
-→ Learn advanced System Design
-→ Ship more open-source contributions
-```
-
----
-
-# ⚡ CONTRIBUTION PHILOSOPHY
-
-```text
-        IDEA
-          │
-          ▼
-       BUILD
-          │
-          ▼
-        TEST
-          │
-          ▼
-       BREAK IT
-          │
-          ▼
-       DEBUG IT
-          │
-          ▼
-       IMPROVE IT
-          │
-          ▼
-        SHIP 🚀
-```
-
----
-
-# 🌐 LET'S CONNECT
-
-<p align="center">
-
-<a href="https://github.com/abyyxhek">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:reachme.abishekvs@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abyyxhek&layout=compact&hide_border=true&theme=default" height="160"/>
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=120&section=footer"/>
-</p>
+## Contact
+
+**GitHub:** https://github.com/abyyxhek
+**LinkedIn:** https://www.linkedin.com/
+**Email:** [reachme.abishekvs@gmail.com](mailto:reachme.abishekvs@gmail.com)
+
+---
 
 <p align="center">
-  <b>⚡ Code. Learn. Build. Repeat.</b>
-</p>
-
-<p align="center">
-  <sub>Made with curiosity, caffeine & too many terminal tabs ☕💻</sub>
+  <sub>Building reliable software and exploring practical applications of AI.</sub>
 </p>
