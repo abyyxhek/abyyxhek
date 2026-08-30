@@ -12,7 +12,7 @@ I am a B.Tech Computer Science and Engineering student focused on Artificial Int
 
 I build practical systems across machine learning, computer vision, backend development, and AI infrastructure. I am particularly interested in reliable AI systems, agent infrastructure, and production-oriented software.
 
-Currently working on AI and web-based projects while deepening my knowledge of Deep Learning, Large Language Models, AI agents, and System Design.
+Currently working on AI and web-based development while deepening my knowledge of Deep Learning, Large Language Models, AI agents, and System Design.
 
 ---
 
@@ -52,7 +52,7 @@ AI/ML monitoring and failure-detection infrastructure.
 
 Contributed **5 merged bug-fix pull requests (#63, #71–#74)** addressing reliability across CrewAI, Claude Code, configuration, asynchronous batching, and state-management components.
 
-Key contributions include:
+Key contributions:
 
 * Corrected CrewAI action signatures to use stable `tool_input`, restoring reliable loop detection.
 * Fixed Claude Code tool-latency tracking and improved tracker ordering and age-based eviction.
@@ -72,7 +72,7 @@ AI/agent infrastructure focused on task continuity and recovery.
 
 Contributed **4 merged pull requests** covering process execution, session recovery, cross-platform reliability, SQLite resource management, and documentation.
 
-Key contributions include:
+Key contributions:
 
 * Fixed child-process environment inheritance.
 * Fixed sidecar session recovery without a memorized ID or task file.
@@ -81,34 +81,6 @@ Key contributions include:
 
 **Repository:**
 https://github.com/Cyrax321/CONTINUUM
-
----
-
-## Projects
-
-### AI Attendance System
-
-Face-recognition based attendance system using computer vision.
-
-**Technologies:** Python, OpenCV, Face Recognition
-
-### Excel Analytics Platform
-
-Full-stack analytics platform supporting spreadsheet and CSV ingestion, automated processing, persistent storage, and interactive analytics.
-
-**Technologies:** Node.js, Express.js, React, MongoDB
-
-### MERN Applications
-
-Full-stack web applications featuring authentication, REST APIs, database integration, and responsive interfaces.
-
-**Technologies:** MongoDB, Express.js, React, Node.js
-
-### Social Media Platform
-
-A full-stack social platform supporting posts, likes, comments, and user interactions.
-
-**Technologies:** React, Node.js, Express.js, MongoDB
 
 ---
 
