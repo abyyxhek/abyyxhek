@@ -1,46 +1,32 @@
 # Abishek VS
 
-**Computer Science & Engineering | Artificial Intelligence & Machine Learning | Software Engineering**
+**AI/ML · Software Engineering · Open Source**
 
-[GitHub](https://github.com/abyyxhek) · [LinkedIn](https://www.linkedin.com/) · [Email](mailto:reachme.abishekvs@gmail.com)
+I build practical software across **AI/ML, computer vision, backend systems, and AI infrastructure**, with a focus on reliability, debugging, testing, and production-oriented engineering.
 
----
-
-## About
-
-I am a B.Tech Computer Science and Engineering student focused on Artificial Intelligence, Machine Learning, and software engineering.
-
-I build practical systems across machine learning, computer vision, backend development, and AI infrastructure. I am particularly interested in reliable AI systems, agent infrastructure, and production-oriented software.
-
-Currently working on AI and web-based development while deepening my knowledge of Deep Learning, Large Language Models, AI agents, and System Design.
+Currently working with **Python, JavaScript, Django, Node.js, React, and MongoDB**, while exploring **LLMs, AI agents, RAG, deep learning, and production ML systems**.
 
 ---
 
-## Technical Skills
+## Stack
 
 **Languages**
-
 Python · JavaScript · SQL · C · HTML · CSS
 
-**Artificial Intelligence & Machine Learning**
-
+**AI / ML**
 Scikit-learn · NumPy · Pandas · Matplotlib · OpenCV · MediaPipe
-
 Machine Learning · Computer Vision · Regression · Classification · Feature Engineering · Model Evaluation · Cross-Validation
 
-**Backend & Web**
-
+**Backend / Web**
 Django · Node.js · Express.js · React · REST APIs · JWT Authentication
 
 **Databases**
-
 MongoDB · MySQL · SQLite
 
-**Engineering & Tools**
-
-Git · GitHub · GitHub Actions · Jupyter · VS Code · Postman · Vercel · Render
-
-Unit Testing · Regression Testing · CI/CD · Debugging · Code Review · API Integration · Concurrency · Static Analysis · Cross-Platform Debugging
+**Engineering**
+Git · GitHub · GitHub Actions · Jupyter · VS Code · Postman
+Vercel · Render · CI/CD · Unit Testing · Regression Testing
+Debugging · Code Review · API Integration · Concurrency · Static Analysis · Cross-Platform Debugging
 
 ---
 
@@ -50,96 +36,108 @@ Unit Testing · Regression Testing · CI/CD · Debugging · Code Review · API I
 
 AI/ML monitoring and failure-detection infrastructure.
 
-Contributed **5 merged bug-fix pull requests (#63, #71–#74)** addressing reliability across CrewAI, Claude Code, configuration, asynchronous batching, and state-management components.
+**16 PRs · 12 merged · 4 open**
 
-Key contributions:
+Contributions cover **detector reliability, asynchronous batching, state management, configuration, authentication, latency tracking, error handling, ingestion contracts, testing, and core reliability**.
 
-* Corrected CrewAI action signatures to use stable `tool_input`, restoring reliable loop detection.
-* Fixed Claude Code tool-latency tracking and improved tracker ordering and age-based eviction.
-* Fixed asynchronous batch threshold flushing and shutdown queue draining.
-* Corrected environment-variable precedence behavior.
-* Fixed an unbounded per-episode `RLock` leak in `MemoryStateBackend`.
-* Added regression and end-to-end tests covering anomaly detection, integrations, concurrency, configuration, fail-open behavior, asynchronous delivery, and memory cleanup.
+**Merged contributions include:**
+
+* Call-latency measurement and timing reliability
+* Stagnation-window detection
+* Hook-bridge request handling
+* Silent-sentinel reliability
+* LoopDetector and deduplication behavior
+* Authentication and CLI integration
+* Episode lock cleanup
+* Environment-variable precedence
+* Async batching and queue shutdown
+* Claude Code latency tracking
+* CrewAI tool-input handling
+* Error-cascade deduplication
+
+**Current open work includes:**
+
+* Ingestion-path contract violations
+* Documentation, core, packaging, and test fixes
+* Redis configuration validation
+* Token-runaway budget validation
 
 **Repository:**
-https://github.com/abyyxhek/SNAGLINE
+https://github.com/Cyrax321/SNAGLINE
 
 ---
 
 ### CONTINUUM
 
-AI/agent infrastructure focused on task continuity and recovery.
+AI/agent infrastructure focused on **task continuity, recovery, reliability, and developer tooling**.
 
-Contributed **4 merged pull requests** covering process execution, session recovery, cross-platform reliability, SQLite resource management, and documentation.
+**78 PRs · 47 merged · 13 open · 18 closed**
 
-Key contributions:
+Contributions span **core reliability, recovery, state management, gateways, CLI behavior, benchmarking, testing, CI, documentation, packaging, Windows compatibility, and developer tooling**.
 
-* Fixed child-process environment inheritance.
-* Fixed sidecar session recovery without a memorized ID or task file.
-* Fixed SQLite storage handle cleanup for Windows benchmark execution.
-* Corrected serve-resume test documentation.
+**Selected merged work includes:**
+
+* Child-process environment inheritance
+* Sidecar session recovery without a memorized ID or task file
+* SQLite resource cleanup for Windows benchmark execution
+* Windows-portable process execution and test suites
+* ActionLedger concurrency and run-lease handling
+* Gateway validation and malformed-input handling
+* State-fold event handling
+* Checkpoint recovery and restoration
+* CLI error handling and validation
+* Dashboard and TUI state management
+* Packaging and release consistency
+* CI linting and static-analysis integration
+* Benchmark and fault-injection reliability
+* Extensive documentation and test improvements
 
 **Repository:**
 https://github.com/Cyrax321/CONTINUUM
 
 ---
 
-## Experience
+## Engineering Experience
 
 ### Zidio Development
 
-**Web Developer Intern | Jun 2025 – Jul 2025**
+**Web Developer Intern · Jun 2025 – Jul 2025**
 
-* Built a production-oriented data analytics platform using Node.js, Express.js, React.js, and MongoDB.
-* Implemented Excel/CSV ingestion, automated parsing, persistent storage, and interactive analytics.
-* Developed JWT authentication and role-based access control through REST APIs.
-* Built responsive analytics dashboards using React and Tailwind CSS.
-* Configured GitHub-based CI/CD deployment using Render and Vercel.
-
----
-
-## Education
-
-**APJ Abdul Kalam Technological University**
-
-**B.Tech in Computer Science and Engineering**
-Sep 2023 – Jul 2027 · Kerala
-
-Relevant coursework:
-
-Data Structures and Algorithms · Machine Learning · Database Management Systems · Operating Systems · Computer Networks · Object-Oriented Programming
+* Built a production-oriented analytics platform using **Node.js, Express.js, React.js, and MongoDB**.
+* Implemented **Excel/CSV ingestion, automated parsing, persistent storage, and interactive analytics**.
+* Developed **JWT authentication and role-based access control** through REST APIs.
+* Built responsive analytics dashboards using **React and Tailwind CSS**.
+* Configured GitHub-based **CI/CD deployment with Render and Vercel**.
 
 ---
 
-## Currently Learning
+## Open Source Activity
 
-Deep Learning
-Large Language Models
-AI Agents
-Retrieval-Augmented Generation
-System Design
-Production Machine Learning
+**94 PRs across SNAGLINE and CONTINUUM**
 
----
+* **59 merged**
+* **17 open**
+* **18 closed / unmerged**
 
-## Open Source Contributions
+Work includes:
 
-**9 merged pull requests across SNAGLINE and CONTINUUM**
-
-* 8 bug-fix and reliability contributions
-* 1 documentation contribution
-* Regression testing
-* End-to-end validation
+* Bug fixing and reliability engineering
+* Regression and end-to-end testing
+* Concurrency debugging
+* Async processing
+* State and resource management
+* Cross-platform debugging
+* API and integration fixes
+* Configuration handling
 * Static analysis
 * CI workflows
+* Documentation
 * Code review
-* Concurrency debugging
-* Cross-platform debugging
 * Production-oriented software maintenance
 
 ---
 
-## GitHub Activity
+## GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abyyxhek&show_icons=true&hide_border=true&theme=default" height="160"/>
@@ -152,13 +150,18 @@ Production Machine Learning
 
 ---
 
-## Contact
+## Focus
 
-**GitHub:** https://github.com/abyyxhek
-**LinkedIn:** https://www.linkedin.com/
-**Email:** [reachme.abishekvs@gmail.com](mailto:reachme.abishekvs@gmail.com)
+Deep Learning · Large Language Models · AI Agents
+Retrieval-Augmented Generation · System Design · Production ML
 
 ---
+
+## Links
+
+**GitHub** — https://github.com/abyyxhek
+**LinkedIn** — https://www.linkedin.com/
+**Email** — [reachme.abishekvs@gmail.com](mailto:reachme.abishekvs@gmail.com)
 
 <p align="center">
   <sub>Building reliable software and exploring practical applications of AI.</sub>
