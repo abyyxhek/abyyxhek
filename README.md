@@ -1,168 +1,63 @@
 # Abishek VS
+**Software Engineer · AI/ML · Open Source**
 
-**AI/ML · Software Engineering · Open Source**
+I build reliable software across backend systems, AI/ML, computer vision, and AI infrastructure. I enjoy debugging complex issues, improving system reliability, and contributing to open-source projects.
 
-I build practical software across **AI/ML, computer vision, backend systems, and AI infrastructure**, with a focus on reliability, debugging, testing, and production-oriented engineering.
+Currently exploring LLMs, AI agents, RAG, and production ML systems.
 
-Currently working with **Python, JavaScript, Django, Node.js, React, and MongoDB**, while exploring **LLMs, AI agents, RAG, deep learning, and production ML systems**.
-
----
-
-## Stack
-
-**Languages**
-Python · JavaScript · SQL · C · HTML · CSS
-
-**AI / ML**
-Scikit-learn · NumPy · Pandas · Matplotlib · OpenCV · MediaPipe
-Machine Learning · Computer Vision · Regression · Classification · Feature Engineering · Model Evaluation · Cross-Validation
-
-**Backend / Web**
-Django · Node.js · Express.js · React · REST APIs · JWT Authentication
-
-**Databases**
-MongoDB · MySQL · SQLite
-
-**Engineering**
-Git · GitHub · GitHub Actions · Jupyter · VS Code · Postman
-Vercel · Render · CI/CD · Unit Testing · Regression Testing
-Debugging · Code Review · API Integration · Concurrency · Static Analysis · Cross-Platform Debugging
+[GitHub](https://github.com/abyyxhek) · [LinkedIn](https://www.linkedin.com/) · [Email](mailto:reachme.abishekvs@gmail.com)
 
 ---
+
+## Technical Skills
+
+- **Languages:** Python, JavaScript, SQL, C
+- **Backend:** Django, Node.js, Express.js, REST APIs, JWT
+- **Frontend:** React, HTML, CSS
+- **AI/ML:** Scikit-learn, NumPy, Pandas, OpenCV, MediaPipe
+- **Databases:** MongoDB, MySQL, SQLite
+- **Engineering:** Git, GitHub Actions, CI/CD, Unit Testing, Regression Testing, Debugging
 
 ## Open Source
 
 ### SNAGLINE
-
 AI/ML monitoring and failure-detection infrastructure.
 
-**16 PRs · 12 merged · 4 open**
+- **16 PRs · 12 merged · 4 open**
+- Improved detector reliability, asynchronous processing, state management, authentication, and error handling.
+- Contributed to latency tracking, deduplication, ingestion contracts, and regression testing.
 
-Contributions cover **detector reliability, asynchronous batching, state management, configuration, authentication, latency tracking, error handling, ingestion contracts, testing, and core reliability**.
-
-**Merged contributions include:**
-
-* Call-latency measurement and timing reliability
-* Stagnation-window detection
-* Hook-bridge request handling
-* Silent-sentinel reliability
-* LoopDetector and deduplication behavior
-* Authentication and CLI integration
-* Episode lock cleanup
-* Environment-variable precedence
-* Async batching and queue shutdown
-* Claude Code latency tracking
-* CrewAI tool-input handling
-* Error-cascade deduplication
-
-**Current open work includes:**
-
-* Ingestion-path contract violations
-* Documentation, core, packaging, and test fixes
-* Redis configuration validation
-* Token-runaway budget validation
-
-**Repository:**
-https://github.com/Cyrax321/SNAGLINE
-
----
+[Repository →](https://github.com/Cyrax321/SNAGLINE)
 
 ### CONTINUUM
+AI agent infrastructure focused on task continuity, recovery, and reliability.
 
-AI/agent infrastructure focused on **task continuity, recovery, reliability, and developer tooling**.
+- **78 PRs · 47 merged · 13 open · 18 closed**
+- Worked on session recovery, checkpoint restoration, concurrency, and resource management.
+- Improved Windows compatibility, CLI behavior, benchmarking, CI, and test reliability.
 
-**78 PRs · 47 merged · 13 open · 18 closed**
+[Repository →](https://github.com/Cyrax321/CONTINUUM)
 
-Contributions span **core reliability, recovery, state management, gateways, CLI behavior, benchmarking, testing, CI, documentation, packaging, Windows compatibility, and developer tooling**.
+## Experience
 
-**Selected merged work includes:**
+**Zidio Development** — Web Developer Intern  
+*June 2025 – July 2025*
 
-* Child-process environment inheritance
-* Sidecar session recovery without a memorized ID or task file
-* SQLite resource cleanup for Windows benchmark execution
-* Windows-portable process execution and test suites
-* ActionLedger concurrency and run-lease handling
-* Gateway validation and malformed-input handling
-* State-fold event handling
-* Checkpoint recovery and restoration
-* CLI error handling and validation
-* Dashboard and TUI state management
-* Packaging and release consistency
-* CI linting and static-analysis integration
-* Benchmark and fault-injection reliability
-* Extensive documentation and test improvements
+- Developed a full-stack analytics platform using React, Node.js, Express.js, and MongoDB.
+- Implemented Excel/CSV ingestion, data processing, JWT authentication, and REST APIs.
+- Built interactive dashboards and configured deployments using Vercel and Render.
 
-**Repository:**
-https://github.com/Cyrax321/CONTINUUM
-
----
-
-## Engineering Experience
-
-### Zidio Development
-
-**Web Developer Intern · Jun 2025 – Jul 2025**
-
-* Built a production-oriented analytics platform using **Node.js, Express.js, React.js, and MongoDB**.
-* Implemented **Excel/CSV ingestion, automated parsing, persistent storage, and interactive analytics**.
-* Developed **JWT authentication and role-based access control** through REST APIs.
-* Built responsive analytics dashboards using **React and Tailwind CSS**.
-* Configured GitHub-based **CI/CD deployment with Render and Vercel**.
-
----
-
-## Open Source Activity
-
-**94 PRs across SNAGLINE and CONTINUUM**
-
-* **59 merged**
-* **17 open**
-* **18 closed / unmerged**
-
-Work includes:
-
-* Bug fixing and reliability engineering
-* Regression and end-to-end testing
-* Concurrency debugging
-* Async processing
-* State and resource management
-* Cross-platform debugging
-* API and integration fixes
-* Configuration handling
-* Static analysis
-* CI workflows
-* Documentation
-* Code review
-* Production-oriented software maintenance
-
----
-
-## GitHub
+## GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abyyxhek&show_icons=true&hide_border=true&theme=default" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abyyxhek&hide_border=true&theme=default" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=abyyxhek&show_icons=true&hide_border=true&theme=default" height="155" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abyyxhek&layout=compact&hide_border=true&theme=default" height="155" alt="Most used languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abyyxhek&layout=compact&hide_border=true&theme=default" height="160"/>
-</p>
+## Current Focus
+
+Backend engineering · System design · LLMs · AI agents · RAG · Production ML · Reliability engineering
 
 ---
 
-## Focus
-
-Deep Learning · Large Language Models · AI Agents
-Retrieval-Augmented Generation · System Design · Production ML
-
----
-
-## Links
-
-**GitHub** — https://github.com/abyyxhek
-**LinkedIn** — https://www.linkedin.com/
-**Email** — [reachme.abishekvs@gmail.com](mailto:reachme.abishekvs@gmail.com)
-
-<p align="center">
-  <sub>Building reliable software and exploring practical applications of AI.</sub>
-</p>
+*Building reliable systems, solving engineering problems, and contributing to open source.*
